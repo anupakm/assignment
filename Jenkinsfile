@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("anupakm/myproject")
+        app = docker.build("anupakm/simplilearnproject")
     }
 
     stage('Test image') {
